@@ -15,4 +15,5 @@ In the MySQL database, there are the following tables:
 10. i915-committer-no-maintainer
 
 The folder `select-candidate-committers` contains the data and the C++ script for selecting candidate committers for the subsystems.
-Run `main.cpp` to get the results.
+First, run `gen.cpp` to build the collaboration network of the contributors for each potential subsystem.
+Then, run `main.cpp` to get the list of the candidate committers.
